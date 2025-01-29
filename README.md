@@ -1,4 +1,4 @@
-# 📅 DSA Planner  
+# 📅  Planner  
 
 A minimal and elegant to-do list planner for managing DSA tasks, tracking progress, and receiving motivational quotes.
 
