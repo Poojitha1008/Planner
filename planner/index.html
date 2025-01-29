@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planner</h1>
+
+        <div class="section">
+            <h2>To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+
+        <div class="section">
+            <h2>Upcoming Events</h2>
+            <input type="text" id="eventInput" placeholder="Enter event">
+            <input type="date" id="eventDate">
+            <button onclick="addEvent()">Add Event</button>
+            <ul id="eventList"></ul>
+        </div>
+
+        <div class="section">
+            <h2>Progress</h2>
+            <p id="progressText">0% Completed</p>
+            <p id="motivationQuote" style="font-weight: bold; color: green;"></p> <!-- Updated to display quote immediately -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
